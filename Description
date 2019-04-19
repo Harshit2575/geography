@@ -1,0 +1,21 @@
+Description of various files and folders-
+
+corrplot-Contains correlation plot for variables for various states
+hqportfolio- Contains csv's for each state, lists companies having headquarters in a state
+meanret - contains csv for each state, listing meanHQ, meanER and other relevant returns
+models-contain regression models for meanHQ and meanEr for states using other variable as independent
+mpr- Monthly closing price data of stocks
+mret-Monthly return data of stocks
+nonermodels- Prediction models for meanHQ without using meanER
+nonhqmodels- Prediction models for meanER without using meanHQ
+Reports- reports folders contain year wise annual reports of BSE50 companies
+score_state- A folder for each year, containing the data of no. of times the name of a state occurs in an annual report
+
+bse50.csv- List of BSE50 companies with their registered and corporate headquarters
+district.csv- List of all the states and districts in India
+ercompanies.csv- A csv file listing companies with years for which a state is economically relevant(if it is in top 3 in terms of name appearing in Annual report, apart from headquarters state)
+fourfactors.csv- Contains monthly data of fama-french 4 factors
+
+coff-corporate headquarters is used as headquarters
+sbadj-survivorship bias adjusted four factors are used
+
